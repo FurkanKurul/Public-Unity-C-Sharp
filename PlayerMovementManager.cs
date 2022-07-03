@@ -286,6 +286,7 @@ public class PlayerMovementManager : MonoBehaviour
         transform.Translate(Time.deltaTime * upDownSpeed * yDirectionInput * yDirectionInput * Vector3.down);
     }
 
+    // WE CAN CREATE A NEW CLASS FOR ANIMATIONs (SOLID)
     public void CheckPlayerWalkingAnimation(float horizontalMovement)
     {
         anim.speed = 1.0f;
